@@ -113,7 +113,7 @@ For VAE to work, you must specify the address of the dataset. for example,
 ```bash
 python scVAG_VAE.py Chung
 ```
-The /results folder exclusively holds the `vae.csv` file, capturing the intermediate output from the initial VAE encoding phase. This file stores the latent representation extracted by the Variational Autoencoder, crucial for subsequent stages.
+The `vae.csv` file is stored within the dataset folder, capturing the intermediate output from the initial VAE encoding phase. This file stores the latent representation extracted by the Variational Autoencoder, crucial for subsequent stages.
 
 ### Run GATE (scGAC)
 <p style="text-align: justify;">
@@ -133,11 +133,13 @@ The /results folder contains text files with the predicted clustering outputs fo
 
 We evaluated the performance of the scVAG model on a diverse set of single-cell datasets, ranging from humans to mice. The clustering accuracy was assessed using two widely recognized metrics: Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI).
 
+
 #### ARI Comparison
 
 Figure 1 illustrates the ARI comparison between scVAG and five other single-cell clustering baselines across 14 datasets. Each subplot represents a specific dataset, while the last subplot presents the average ARI across all datasets.
 
-[Insert Figure 1: ARI Comparison]
+![Sample Image1](images/ARI%20diagram.svg)
+*Figure 1: This is a sample image.*
 
 ##### Observations
 
@@ -148,7 +150,8 @@ Figure 1 illustrates the ARI comparison between scVAG and five other single-cell
 
 Figure 2 provides a similar comparison as in Figure 1, but using the Normalized Mutual Information (NMI) metric.
 
-[Insert Figure 2: NMI Comparison]
+![Sample Image1](images/NMI%20diagram.svg)
+*Figure 2: This is a sample image.*
 
 ##### Insights
 
@@ -157,9 +160,43 @@ Figure 2 provides a similar comparison as in Figure 1, but using the Normalized 
 
 ### Dataset-Specific Analysis
 
-Table 1 summarizes detailed ARI and NMI scores for scVAG and baseline methods on each individual dataset, providing a nuanced understanding of scVAG's strengths across different biological contexts.
+Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVAG and baseline methods on each individual dataset, providing a nuanced understanding of scVAG's strengths across different biological contexts.
+### ARI Scores
+| Dataset               |scVAG|SC3|scGAC|scGNN|Seurat|DESC|
+|-----------------------|-------------|-----------|-------------|-------------|--------------|------------|
+| **Klein**             | 0.863       | 0.831     | 0.835       | 0.601       | 0.836        | 0.808      |
+| **Romanov**           | 0.612       | 0.551     | 0.569       | 0.283       | 0.426        | 0.403      |
+| **Chung**             | 0.365       | 0.025     | 0.303       | 0.298       | 0.209        | 0.215      |
+| **Pbmc**              | 0.676       | 0.643     | 0.613       | 0.562       | 0.623        | 0.687      |
+| **Björklund**         | 0.82        | 0.721     | 0.785       | 0.438       | 0.587        | 0.412      |
+| **Mouse**             | 0.499       | 0.616     | 0.393       | 0.362       | 0.571        | 0.593      |
+| **Zeisel**            | 0.578       | 0.822     | 0.52        | 0.495       | 0.494        | 0.473      |
+| **Petropolus**        | 0.567       | 0.538     | 0.439       | 0.282       | 0.322        | 0.318      |
+| **Brain_Mouse**       | 0.814       | 0.754     | 0.744       | 0.306       | 0.41         | 0.535      |
+| **Neuron_5K**         | 0.463       | 0.327     | 0.385       | 0.236       | 0.249        | 0.239      |
+| **Biase**             | 1           | 0.948     | 1           | 0.33        | 1            | 0.594      |
+| **Adult_Mouse_Heart_5k** | 0.674   | 0.616     | 0.654       | 0.489       | 0.609        | 0.621      |
+| **Human_TBNK_Antibody**  | 0.763 | 0.502     | 0.637       | 0.314       | 0.733        | 0.535      |
+| **Human_PBMCs_500**      | 0.525 | 0.496     | 0.47        | 0.317       | 0.772        | 0.496      |
+| **Average**           | 0.659       | 0.599     | 0.596       | 0.38        | 0.56         | 0.495      |
+---
+### NMI Scores
+| Dataset             |scVAG|SC3|scGAC|scGNN|Seurat|DESC|
+|-----------------------|-------------|-----------|-------------|-------------|--------------|------------|
+| **Klein**             | 0.895       | 0.859     | 0.856       | 0.68        | 0.856        | 0.784      |
+| **Romanov**           | 0.567       | 0.53      | 0.553       | 0.33        | 0.641        | 0.589      |
+| **Chung**             | 0.494       | 0.31      | 0.446       | 0.469       | 0.47         | 0.493      |
+| **Pbmc**              | 0.78        | 0.737     | 0.76        | 0.683       | 0.746        | 0.757      |
+| **Björklund**         | 0.794       | 0.718     | 0.742       | 0.547       | 0.61         | 0.5        |
+| **Mouse**             | 0.708       | 0.757     | 0.664       | 0.635       | 0.762        | 0.752      |
+| **Zeisel**            | 0.686       | 0.076     | 0.624       | 0.635       | 0.661        | 0.593      |
+| **Petropolus**        | 0.655       | 0.627     | 0.583       | 0.384       | 0.523        | 0.555      |
+| **Brain_Mouse**       | 0.809       | 0.696     | 0.708       | 0.486       | 0.579        | 0.588      |
+| **Neuron_5K**         | 0.49        | 0.315     | 0.427       | 0.425       | 0.324        | 0.364      |
+| **Biase**             | 1           | 0.929     | 1           | 0.443       | 1            | 0.641      |
+| **Adult_Mouse_Heart_5k** | 0.819   | 0.705     | 0.783       | 0.636       | 0.738        | 0.734      |
+| **Human_TBNK_Antibody**  | 0.759 | 0.649     | 0.736       | 0.508       | 0.769        | 0.658      |
 
-[Insert Table 1: Detailed ARI and NMI Scores]
 
 ##### Key Findings
 
@@ -167,9 +204,15 @@ Table 1 summarizes detailed ARI and NMI scores for scVAG and baseline methods on
 
 ### Robustness Analysis
 
-To assess the robustness of the scVAG model, we employed two visualization approaches. Figure 3 depicts a dot plot, where the size and brightness of each point correspond to the ARI values, demonstrating scVAG's robust performance across different datasets.
+To assess the robustness of the scVAG model, we employed two visualization approaches. Figure 3 Figure 4 depicts a dot plot, where the size and brightness of each point correspond to the ARI and NMI values, demonstrating scVAG's robust performance across different datasets.
 
-[Insert Figure 3: Robustness Dot Plot]
+![Sample Image1](images/ARI_Robustness.svg)
+
+*Figure 3: This is a sample image.*
+
+![Sample Image1](images/NMI_Robustness.svg)
+
+*Figure 4: This is a sample image.*
 
 ##### Notable Features
 
@@ -177,9 +220,11 @@ To assess the robustness of the scVAG model, we employed two visualization appro
 
 ### Interpretability
 
-Figure 4 provides t-SNE clustering plots for two representative datasets (Human_TBNK_Antibody and Chung), highlighting scVAG's interpretability and its ability to align with true labels.
+Figure 5 provides t-SNE clustering plots for two representative datasets (Human_TBNK_Antibody and Chung), highlighting scVAG's interpretability and its ability to align with true labels.
 
-[Insert Figure 4: t-SNE Clustering Plots]
+![Sample Image1](images/Interpretability.svg)
+*Figure 5: This is a sample image.*
+
 
 ##### Interpretation
 
@@ -221,8 +266,8 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 <p>
 
-**The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.**
+**We acknowledge that portions of this code are derived from the scGAC project, and we express our gratitude to the scGAC authors for their contributions.**
+
 <p style="text-align: justify;">
 THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
