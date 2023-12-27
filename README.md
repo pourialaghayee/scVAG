@@ -185,6 +185,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 | **Human_TBNK_Antibody**  | 0.763 | 0.502     | 0.637       | 0.314       | 0.733        | 0.535      |
 | **Human_PBMCs_500**      | 0.525 | 0.496     | 0.47        | 0.317       | 0.772        | 0.496      |
 | **Average**           | 0.659       | 0.599     | 0.596       | 0.38        | 0.56         | 0.495      |
+
 </p>
 
 ---
