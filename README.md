@@ -162,6 +162,29 @@ Figure 2 provides a similar comparison as in Figure 1, but using the Normalized 
 
 Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVAG and baseline methods on each individual dataset, providing a nuanced understanding of scVAG's strengths across different biological contexts.
 
+<div align="center">
+  
+  ### ARI Scores
+  | Dataset               |scVAG|SC3|scGAC|scGNN|Seurat|DESC|
+  |-----------------------|-------------|-----------|-------------|-------------|--------------|------------|
+  | **Klein**             | 0.863       | 0.831     | 0.835       | 0.601       | 0.836        | 0.808      |
+  | **Romanov**           | 0.612       | 0.551     | 0.569       | 0.283       | 0.426        | 0.403      |
+  | **Chung**             | 0.365       | 0.025     | 0.303       | 0.298       | 0.209        | 0.215      |
+  | **Pbmc**              | 0.676       | 0.643     | 0.613       | 0.562       | 0.623        | 0.687      |
+  | **Björklund**         | 0.82        | 0.721     | 0.785       | 0.438       | 0.587        | 0.412      |
+  | **Mouse**             | 0.499       | 0.616     | 0.393       | 0.362       | 0.571        | 0.593      |
+  | **Zeisel**            | 0.578       | 0.822     | 0.52        | 0.495       | 0.494        | 0.473      |
+  | **Petropolus**        | 0.567       | 0.538     | 0.439       | 0.282       | 0.322        | 0.318      |
+  | **Brain_Mouse**       | 0.814       | 0.754     | 0.744       | 0.306       | 0.41         | 0.535      |
+  | **Neuron_5K**         | 0.463       | 0.327     | 0.385       | 0.236       | 0.249        | 0.239      |
+  | **Biase**             | 1           | 0.948     | 1           | 0.33        | 1            | 0.594      |
+  | **Adult_Mouse_Heart_5k** | 0.674   | 0.616     | 0.654       | 0.489       | 0.609        | 0.621      |
+  | **Human_TBNK_Antibody**  | 0.763 | 0.502     | 0.637       | 0.314       | 0.733        | 0.535      |
+  | **Human_PBMCs_500**      | 0.525 | 0.496     | 0.47        | 0.317       | 0.772        | 0.496      |
+  | **Average**           | 0.659       | 0.599     | 0.596       | 0.38        | 0.56         | 0.495      |
+</div>
+
+
 <p align="center">
   <b>ARI Scores</b><br>
 </p>
