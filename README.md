@@ -137,8 +137,11 @@ We evaluated the performance of the scVAG model on a diverse set of single-cell 
 
 Figure 1 illustrates the ARI comparison between scVAG and five other single-cell clustering baselines across 14 datasets. Each subplot represents a specific dataset, while the last subplot presents the average ARI across all datasets.
 
-![Sample Image1](images/ARI%20diagram.svg)
-*Figure 1: This is a sample image.*
+<p align="center">
+  <img src="images/ARI_Robustness.svg" alt="Sample Image1">
+  <br>
+  <em>Figure 1: This is a sample image.</em>
+</p>
 
 ##### Observations
 
@@ -150,8 +153,11 @@ Figure 1 illustrates the ARI comparison between scVAG and five other single-cell
 Figure 2 provides a similar comparison as in Figure 1, but using the Normalized Mutual Information (NMI) metric.
 
 
-![Sample Image1](images/NMI%20diagram.svg)
-*Figure 2: This is a sample image.*
+<p align="center">
+  <img src="images/ARI_Robustness.svg" alt="Sample Image2">
+  <br>
+  <em>Figure 2: This is a sample image.</em>
+</p>
 
 ##### Insights
 
@@ -185,29 +191,26 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 </div>
 
 
-
----
-
 <div align="center">
   
   ### NMI Scores
-| Dataset               |scVAG|SC3|scGAC|scGNN|Seurat|DESC|
-|-----------------------|-----|---|-----|-----|------|----|
-| **Klein**             | 0.895 | 0.859 | 0.856 | 0.68 | 0.856 | 0.784 |
-| **Romanov**           | 0.567 | 0.53 | 0.553 | 0.33 | 0.641 | 0.589 |
-| **Chung**             | 0.494 | 0.31 | 0.446 | 0.469 | 0.47 | 0.493 |
-| **Pbmc**              | 0.78 | 0.737 | 0.76 | 0.683 | 0.746 | 0.757 |
-| **Björklund**         | 0.794 | 0.718 | 0.742 | 0.547 | 0.61 | 0.5 |
-| **Mouse**             | 0.708 | 0.757 | 0.664 | 0.635 | 0.762 | 0.752 |
-| **Zeisel**            | 0.686 | 0.076 | 0.624 | 0.635 | 0.661 | 0.593 |
-| **Petropolus**        | 0.655 | 0.627 | 0.583 | 0.384 | 0.523 | 0.555 |
-| **Brain_Mouse**       | 0.809 | 0.696 | 0.708 | 0.486 | 0.579 | 0.588 |
-| **Neuron_5K**         | 0.49 | 0.315 | 0.427 | 0.425 | 0.324 | 0.364 |
-| **Biase**             | 1 | 0.929 | 1 | 0.443 | 1 | 0.641 |
-| **Adult_Mouse_Heart_5k** | 0.819 | 0.705 | 0.783 | 0.636 | 0.738 | 0.734 |
-| **Human_TBNK_Antibody**  | 0.759 | 0.649 | 0.736 | 0.508 | 0.769 | 0.658 |
-| **Human_PBMCs_500**      | 0.525 | 0.496 | 0.47 | 0.317 | 0.772 | 0.496 |
-| **Average**           | 0.713 | 0.619 | 0.646 | 0.516 | 0.665 | 0.603 |
+  | Dataset               |scVAG|SC3|scGAC|scGNN|Seurat|DESC|
+  |-----------------------|-------------|-----------|-------------|-------------|--------------|------------|
+  | **Klein**             | 0.895       | 0.859     | 0.856       | 0.68       | 0.856        | 0.784      |
+  | **Romanov**           | 0.567       | 0.53     | 0.553       | 0.33       | 0.641        | 0.589      |
+  | **Chung**             | 0.494       | 0.31     | 0.446       | 0.469       | 0.47        | 0.493      |
+  | **Pbmc**              | 0.78       | 0.737     | 0.76       | 0.683       | 0.746        | 0.757      |
+  | **Björklund**         | 0.794        | 0.718     | 0.742       | 0.547       | 0.61        | 0.5      |
+  | **Mouse**             | 0.708       | 0.757     | 0.664       | 0.635       | 0.762        | 0.752      |
+  | **Zeisel**            | 0.686       | 0.076     | 0.624        | 0.635       | 0.661        | 0.593      |
+  | **Petropolus**        | 0.655       | 0.627     | 0.583       | 0.384       | 0.523        | 0.555      |
+  | **Brain_Mouse**       | 0.809       | 0.696     | 0.708       | 0.486       | 0.579        | 0.588      |
+  | **Neuron_5K**         | 0.49       | 0.315     | 0.427       | 0.425       | 0.324        | 0.364      |
+  | **Biase**             | 1           | 0.929     | 1           | 0.443        | 1            | 0.641      |
+  | **Adult_Mouse_Heart_5k** | 0.819   | 0.705     | 0.783       | 0.636       | 0.738        | 0.734      |
+  | **Human_TBNK_Antibody**  | 0.759 | 0.649     | 0.736       | 0.508       | 0.769        | 0.658      |
+  | **Human_PBMCs_500**      | 0.637 | 0.648     | 0.627        | 0.5       | 0.801        | 0.605      |
+  | **Average**           | 0.721       | 0.611     | 0.679       | 0.526        | 0.677         | 0.615      |
 </div>
 
 
@@ -241,9 +244,11 @@ To assess the robustness of the scVAG model, we employed two visualization appro
 
 Figure 5 provides t-SNE clustering plots for two representative datasets (Human_TBNK_Antibody and Chung), highlighting scVAG's interpretability and its ability to align with true labels.
 
-![Sample Image1](images/Interpretability.svg)
-*Figure 5: This is a sample image.*
-
+<p align="center">
+  <img src="images/NMI_Robustness.svg" alt="Sample Image4">
+  <br>
+  <em>Figure 5: This is a sample image.</em>
+</p>
 
 ##### Interpretation
 
