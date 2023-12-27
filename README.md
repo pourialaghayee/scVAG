@@ -290,7 +290,8 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 <p>
 
-**We acknowledge that portions of this code are derived from the scGAC project, and we express our gratitude to the scGAC authors for their contributions.**
+**The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.**
 
 <p style="text-align: justify;">
 THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -304,5 +305,5 @@ SOFTWARE.
 
 
 ## Acknowledgments
-Give credit to any resources, libraries, or individuals you want to acknowledge.
+**We acknowledge that portions of this code are derived from the scGAC project, and we express our gratitude to the scGAC authors for their contributions.**
 
