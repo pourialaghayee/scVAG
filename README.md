@@ -138,7 +138,7 @@ We evaluated the performance of the scVAG model on a diverse set of single-cell 
 Figure 1 illustrates the ARI comparison between scVAG and five other single-cell clustering baselines across 14 datasets. Each subplot represents a specific dataset, while the last subplot presents the average ARI across all datasets.
 
 <p align="center">
-  <img src="images/ARI_Robustness.svg" alt="Sample Image1">
+  <img src="images/ARI_Diagrams.svg" alt="Sample Image1">
   <br>
   <em>Figure 1: This is a sample image.</em>
 </p>
@@ -154,7 +154,7 @@ Figure 2 provides a similar comparison as in Figure 1, but using the Normalized 
 
 
 <p align="center">
-  <img src="images/ARI_Robustness.svg" alt="Sample Image2">
+  <img src="images/NMI_Diagrams.svg" alt="Sample Image2">
   <br>
   <em>Figure 2: This is a sample image.</em>
 </p>
@@ -245,7 +245,7 @@ To assess the robustness of the scVAG model, we employed two visualization appro
 Figure 5 provides t-SNE clustering plots for two representative datasets (Human_TBNK_Antibody and Chung), highlighting scVAG's interpretability and its ability to align with true labels.
 
 <p align="center">
-  <img src="images/NMI_Robustness.svg" alt="Sample Image4">
+  <img src="images/interpretability.svg" alt="Sample Image4">
   <br>
   <em>Figure 5: This is a sample image.</em>
 </p>
