@@ -149,6 +149,7 @@ Figure 1 illustrates the ARI comparison between scVAG and five other single-cell
 
 Figure 2 provides a similar comparison as in Figure 1, but using the Normalized Mutual Information (NMI) metric.
 
+
 ![Sample Image1](images/NMI%20diagram.svg)
 *Figure 2: This is a sample image.*
 
@@ -160,7 +161,13 @@ Figure 2 provides a similar comparison as in Figure 1, but using the Normalized 
 ### Dataset-Specific Analysis
 
 Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVAG and baseline methods on each individual dataset, providing a nuanced understanding of scVAG's strengths across different biological contexts.
-### ARI Scores
+
+<p align="center">
+  <b>ARI Scores</b><br>
+</p>
+
+<p align="center">
+
 | Dataset               |scVAG|SC3|scGAC|scGNN|Seurat|DESC|
 |-----------------------|-------------|-----------|-------------|-------------|--------------|------------|
 | **Klein**             | 0.863       | 0.831     | 0.835       | 0.601       | 0.836        | 0.808      |
@@ -178,8 +185,16 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 | **Human_TBNK_Antibody**  | 0.763 | 0.502     | 0.637       | 0.314       | 0.733        | 0.535      |
 | **Human_PBMCs_500**      | 0.525 | 0.496     | 0.47        | 0.317       | 0.772        | 0.496      |
 | **Average**           | 0.659       | 0.599     | 0.596       | 0.38        | 0.56         | 0.495      |
+</p>
+
 ---
-### NMI Scores
+
+<p align="center">
+  <b>NMI Scores</b><br>
+</p>
+
+<p align="center">
+
 | Dataset             |scVAG|SC3|scGAC|scGNN|Seurat|DESC|
 |-----------------------|-------------|-----------|-------------|-------------|--------------|------------|
 | **Klein**             | 0.895       | 0.859     | 0.856       | 0.68        | 0.856        | 0.784      |
@@ -195,7 +210,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 | **Biase**             | 1           | 0.929     | 1           | 0.443       | 1            | 0.641      |
 | **Adult_Mouse_Heart_5k** | 0.819   | 0.705     | 0.783       | 0.636       | 0.738        | 0.734      |
 | **Human_TBNK_Antibody**  | 0.759 | 0.649     | 0.736       | 0.508       | 0.769        | 0.658      |
-
+</p>
 
 ##### Key Findings
 
@@ -205,13 +220,19 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 
 To assess the robustness of the scVAG model, we employed two visualization approaches. Figure 3 Figure 4 depicts a dot plot, where the size and brightness of each point correspond to the ARI and NMI values, demonstrating scVAG's robust performance across different datasets.
 
-![Sample Image1](images/ARI_Robustness.svg)
 
-*Figure 3: This is a sample image.*
+<p align="center">
+  <img src="images/ARI_Robustness.svg" alt="Sample Image3">
+  <br>
+  <em>Figure 3: This is a sample image.</em>
+</p>
 
-![Sample Image1](images/NMI_Robustness.svg)
 
-*Figure 4: This is a sample image.*
+<p align="center">
+  <img src="images/NMI_Robustness.svg" alt="Sample Image4">
+  <br>
+  <em>Figure 4: This is a sample image.</em>
+</p>
 
 ##### Notable Features
 
