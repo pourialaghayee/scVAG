@@ -245,7 +245,7 @@ To assess the robustness of the scVAG model, we employed two visualization appro
 Figure 5 provides t-SNE clustering plots for two representative datasets (Human_TBNK_Antibody and Chung), highlighting scVAG's interpretability and its ability to align with true labels.
 
 <p align="center">
-  <img src="images/interpretability.svg" alt="Sample Image4">
+  <img src="images/Interpretability.svg" alt="Sample Image4">
   <br>
   <em>Figure 5: This is a sample image.</em>
 </p>
