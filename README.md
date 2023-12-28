@@ -170,7 +170,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 
 <div align="center">
   
-  ### ARI Scores
+  ### Table 1 
   | Dataset               |scVAG|SC3|scGAC|scGNN|Seurat|DESC|
   |-----------------------|-------------|-----------|-------------|-------------|--------------|------------|
   | **Klein**             | 0.863       | 0.831     | 0.835       | 0.601       | 0.836        | 0.808      |
@@ -193,7 +193,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 
 <div align="center">
   
-  ### NMI Scores
+  ### Table 2
   | Dataset               |scVAG|SC3|scGAC|scGNN|Seurat|DESC|
   |-----------------------|-------------|-----------|-------------|-------------|--------------|------------|
   | **Klein**             | 0.895       | 0.859     | 0.856       | 0.68       | 0.856        | 0.784      |
@@ -292,17 +292,6 @@ furnished to do so, subject to the following conditions:
 
 **The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.**
-
-<p style="text-align: justify;">
-THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
-OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-<p>
-
 
 ## Acknowledgments
 **We acknowledge that portions of this code are derived from the scGAC project, and we express our gratitude to the scGAC authors for their contributions.**
