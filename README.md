@@ -297,5 +297,5 @@ copies or substantial portions of the Software.**
 **We acknowledge that portions of this code are derived from the scGAC project, and we express our gratitude to the scGAC authors for their contributions.**
 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10464505.svg)](https://doi.org/10.5281/zenodo.10464505)
 
-[![DOI](https://zenodo.org/badge/735595981.svg)](https://zenodo.org/doi/10.5281/zenodo.10442524)
