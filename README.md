@@ -276,7 +276,6 @@ The comprehensive evaluation of scVAG's clustering performance, dataset-specific
 ## Contributing
 - [Seyedpouria Laghaee](https://github.com/pourialaghayee)
 - [Morteza Eskandarian](https://github.com/morteza-eskandarian)
-- [Zahra Ansari](https://github.com/Zahra-Ansari)
 
 ## License
 
