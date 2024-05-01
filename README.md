@@ -58,9 +58,6 @@ The scVAG project utilizes several datasets for experimentation and testing. You
 - **Romanov Dataset:**
   - [Link to Romanov Dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74672)
 
-- **Zeisel Dataset:**
-  - [Link to Zeisel Dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60361)
-
 - **Chung Dataset:**
   - [Link to Chung Dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE75688)
 
@@ -69,9 +66,6 @@ The scVAG project utilizes several datasets for experimentation and testing. You
 
 - **Neuron_5k Dataset:**
   - [Link to Neuron_5k Dataset](https://cf.10xgenomics.com/samples/cell-exp/6.0.0/SC3_v3_NextGem_DI_Neurons_5K_SC3_v3_NextGem_DI_Neurons_5K/SC3_v3_NextGem_DI_Neurons_5K_SC3_v3_NextGem_DI_Neurons_5K_web_summary.html)
-
-- **Mouse Dataset:**
-  - [Link to Mouse Dataset](https://figshare.com/s/865e694ad06d5857db4b)
 
 - **Petropoulos Dataset:**
   - [Link to Petropoulos Dataset](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-3929)
@@ -87,9 +81,6 @@ The scVAG project utilizes several datasets for experimentation and testing. You
 
 - **Adult_Mouse_Heart_5k Dataset:**
   - [Link to Adult_Mouse_Heart_5k Dataset](https://www.10xgenomics.com/resources/datasets/5k-adult-mouse-heart-nuclei-isolated-with-chromium-nuclei-isolation-kit-3-1-standard)
-
-- **Human_PBMCs_500 Dataset:**
-  - [Link to Human_PBMCs_500 Dataset](https://www.10xgenomics.com/resources/datasets/500-human-pbm-cs-3-lt-v-3-1-chromium-x-3-1-low-6-1-0)
 
 Please refer to the respective dataset links for more details about each dataset and its usage in the scVAG project.
 
