@@ -244,7 +244,6 @@ Table 3: Differentially Expressed Genes Identified by scVAG Clustering Results i
 | ENSG00000172201 | ID4         | 5.97           | 3.80E-31| 3.17E-28         |
 | ENSG00000127324 | TSPAN8      | 7.31           | 1.57E-29| 1.12E-26         |
 | ENSG00000189143 | CLDN4       | 2.97           | 9.91E-29| 6.20E-26         |
-
 <div>
 
 These findings shed light on the molecular mechanisms underlying breast cancer pathogenesis, further validating the robustness and significance of our scVAG model in unraveling intricate disease processes.
