@@ -234,7 +234,7 @@ To showcase the practical utility of our scVAG model, we applied its clustering 
 
 <div align="center">
   
-  ### Table 3: Differentially Expressed Genes Identified by scVAG Clustering Results in Breast Cancer (GSE75688).
+  ### Table 3: Differentially Expressed Genes Identified by scVAG in Breast Cancer.
 | ENS Id          | Gene Symbol | log2FoldChange | p-value | adjusted p-value |
 |-----------------|-------------|----------------|---------|------------------|
 | ENSG00000178372 | CALML5      | 7.76           | 4.76E-52| 1.19E-48         |
