@@ -196,8 +196,8 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
   | **Human_TBNK_Antibody**  | 0.759| 0.711| 0.651| 0.734| 0.508| 0.77 | 0.661| 0.673|
   | **AVG_Result**           | 0.733| 0.708| 0.644| 0.69 | 0.508| 0.66 | 0.604| 0.626|
 </div>
-##### Key Findings
 
+##### Key Findings
 - scVAG consistently excels in specific datasets, showcasing adaptability to diverse biological scenarios.
 
 ### Robustness Analysis
