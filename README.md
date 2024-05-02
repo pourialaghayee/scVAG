@@ -128,7 +128,7 @@ We evaluated the performance of the scVAG model on a diverse set of single-cell 
 Figure 1 illustrates the ARI and NMI comparison between scVAG and seven other single-cell clustering baselines across 11  real datasets. Each subplot represents a specific dataset, while the last subplot presents the average ARI across all datasets.
 
 <p align="center">
-  <img src="images/figure 1.PNG" alt="Sample Image1">
+  <img src="images/ARI-NMI Bar Plot.svg" alt="Sample Image1">
   <br>
   <em>Figure 1: Comparison of Adjusted Rand Index (ARI) scores (A) and Normalized Mutual Information (NMI) scores (B) for scVAG versus baseline methods on 11 single-cell datasets. Each sub-figure displays results for a specific dataset, with the final sub-figures showing the average ARI and NMI across datasets. ScVAG consistently achieves higher ARI and NMI scores compared to other methods across diverse datasets, demonstrating its superior clustering performance in single-cell analysis.</em>
 </p>
