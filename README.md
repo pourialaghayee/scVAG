@@ -140,7 +140,7 @@ Figure 1 illustrates the ARI and NMI comparison between scVAG and seven other si
 - The average ARI and NMI across all datasets demonstrates the superior clustering accuracy achieved by scVAG.
 
 #### Ablation experiment
-The decision to integrate VAE and GATE in scVAG was driven by practical considerations, leveraging their combined strengths for improved performance, as validated by ablation experiments in Figure 3.
+The decision to integrate VAE and GATE in scVAG was driven by practical considerations, leveraging their combined strengths for improved performance, as validated by ablation experiments in Figure 2.
 <p align="center">
   <img src="images/figure 2.PNG" alt="Sample Image2">
   <br>
@@ -148,11 +148,11 @@ The decision to integrate VAE and GATE in scVAG was driven by practical consider
 </p>
 
 #### Evaluation on Synthetic Datasets
-We assessed the noise-handling capability and efficacy of our proposed model across diverse synthetic datasets, showcasing superior performance in challenging conditions, as depicted in Figure 4.
+We assessed the noise-handling capability and efficacy of our proposed model across diverse synthetic datasets, showcasing superior performance in challenging conditions, as depicted in Figure 3.
 <p align="center">
   <img src="images/Simulation_comparision.svg" alt="Sample Image2">
   <br>
-  <em>Figure 4: Comparison of Cosine Similarity scores for scVAG across 8 simulated datasets. Overall, scVAG demonstrates effective performance in measuring cell similarity across diverse simulated datasets.</em>
+  <em>Figure 3: Comparison of Cosine Similarity scores for scVAG across 8 simulated datasets. Overall, scVAG demonstrates effective performance in measuring cell similarity across diverse simulated datasets.</em>
 </p>
 
 ### Dataset-Specific Analysis
@@ -202,12 +202,12 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 
 ### Robustness Analysis
 
-To assess the robustness of the scVAG model, we employed two visualization approaches. Figure 5 depicts a combined dot plot, where the size and brightness of each point correspond to the ARI and NMI values, demonstrating scVAG's robust performance across different datasets.
+To assess the robustness of the scVAG model, we employed two visualization approaches. Figure 4 depicts a combined dot plot, where the size and brightness of each point correspond to the ARI and NMI values, demonstrating scVAG's robust performance across different datasets.
 
 <p align="center">
   <img src="images/figure 5.png" alt="Combined Image">
   <br>
-  <em>Figure 5: Robustness evaluation using the Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI). Panel (A) visually shows scVAG's robust performance across datasets compared to baselines for ARI, with larger, brighter squares indicating higher ARI. Panel (B) quantifies ARI scores, while Panels (C) and (D) represent NMI scores, with scVAG showing consistently bright colors that demonstrate reliable clustering across diverse data. Overall, scVAG exhibits strong resilience and stability, outperforming other methods on average.</em>
+  <em>Figure 4: Robustness evaluation using the Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI). Panel (A) visually shows scVAG's robust performance across datasets compared to baselines for ARI, with larger, brighter squares indicating higher ARI. Panel (B) quantifies ARI scores, while Panels (C) and (D) represent NMI scores, with scVAG showing consistently bright colors that demonstrate reliable clustering across diverse data. Overall, scVAG exhibits strong resilience and stability, outperforming other methods on average.</em>
 </p>
 
 ##### Notable Features
@@ -216,12 +216,12 @@ To assess the robustness of the scVAG model, we employed two visualization appro
 
 ### Interpretability
 
-Figure 6 provides t-SNE clustering plots for two representative datasets (Chung and Human_TBNK_Antibody), highlighting scVAG's interpretability and its ability to align with true labels.
+Figure 5 provides t-SNE clustering plots for two representative datasets (Chung and Human_TBNK_Antibody), highlighting scVAG's interpretability and its ability to align with true labels.
 
 <p align="center">
   <img src="images/figure 6.PNG" alt="Sample Image4">
   <br>
-  <em>Figure 6: t-SNE visualizations comparing scVAG against baseline models on (A) the Chung dataset and (B) the Human_TBNK_Antibody dataset. The 9 subplots in each row display model clustering performance and alignment with true labels. The true labels are included to facilitate comparison. On both datasets, scVAG's clusters show strong agreement with the true cell type labels, accurately capturing intricate patterns in the single-cell data. This demonstrates scVAG's advanced ability for accurate and interpretable clustering of diverse biological datasets compared to current state-of-the-art methods.</em>
+  <em>Figure 5: t-SNE visualizations comparing scVAG against baseline models on (A) the Chung dataset and (B) the Human_TBNK_Antibody dataset. The 9 subplots in each row display model clustering performance and alignment with true labels. The true labels are included to facilitate comparison. On both datasets, scVAG's clusters show strong agreement with the true cell type labels, accurately capturing intricate patterns in the single-cell data. This demonstrates scVAG's advanced ability for accurate and interpretable clustering of diverse biological datasets compared to current state-of-the-art methods.</em>
 </p>
 
 ##### Interpretation
