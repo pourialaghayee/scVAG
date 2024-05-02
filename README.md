@@ -205,7 +205,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 To assess the robustness of the scVAG model, we employed two visualization approaches. Figure 4 depicts a combined dot plot, where the size and brightness of each point correspond to the ARI and NMI values, demonstrating scVAG's robust performance across different datasets.
 
 <p align="center">
-  <img src="images/figure 5.png" alt="Combined Image">
+  <img src="images/figure 5.PNG" alt="Combined Image">
   <br>
   <em>Figure 4: Robustness evaluation using the Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI). Panel (A) visually shows scVAG's robust performance across datasets compared to baselines for ARI, with larger, brighter squares indicating higher ARI. Panel (B) quantifies ARI scores, while Panels (C) and (D) represent NMI scores, with scVAG showing consistently bright colors that demonstrate reliable clustering across diverse data. Overall, scVAG exhibits strong resilience and stability, outperforming other methods on average.</em>
 </p>
@@ -247,12 +247,12 @@ These findings shed light on the molecular mechanisms underlying breast cancer p
 
 ### T-Test Analysis
 
-To validate the statistical significance of the performance improvements achieved by scVAG compared to state-of-the-art methods, we conducted rigorous t-tests on our experimental results. The null hypothesis posited that scVAG does not yield an average improvement in the evaluation criteria over the other methods. Figure 7 visually encapsulates one of the outcomes of these analyses, for scVAG, SCEA, SC3, scGAC, scGNN, Seuart, DESC, and scASGC. The p-values corresponding to the comparison between scVAG and other methods for these metrics are depicted on the plot, with stars denoting different significance levels.
+To validate the statistical significance of the performance improvements achieved by scVAG compared to state-of-the-art methods, we conducted rigorous t-tests on our experimental results. The null hypothesis posited that scVAG does not yield an average improvement in the evaluation criteria over the other methods. Figure 6 visually encapsulates one of the outcomes of these analyses, for scVAG, SCEA, SC3, scGAC, scGNN, Seuart, DESC, and scASGC. The p-values corresponding to the comparison between scVAG and other methods for these metrics are depicted on the plot, with stars denoting different significance levels.
 
 <p align="center">
   <img src="images/Human_TBNK_Antibody-ARI.svg" alt="Sample Image4">
   <br>
-  <em>Figure 7: T-test result for all models including our model (scVAG) across all the real datasets. For instance, in the ARI subplot for the Adult_Mouse_Heart_5k dataset (first row, first column), statistical tests revealed that scVAG surpassed the performance of all other methods (SCEA, SC3, scGAC, scGNN, DESC, Seuart, and scASGC) with over 99% significance. Across all test cases, our analyses consistently demonstrated statistical significance, with over 90% of the situations yielding significant results.</em>
+  <em>Figure 6: T-test result for all models including our model (scVAG) across all the real datasets. For instance, in the ARI subplot for the Adult_Mouse_Heart_5k dataset (first row, first column), statistical tests revealed that scVAG surpassed the performance of all other methods (SCEA, SC3, scGAC, scGNN, DESC, Seuart, and scASGC) with over 99% significance. Across all test cases, our analyses consistently demonstrated statistical significance, with over 90% of the situations yielding significant results.</em>
 </p>
 
 These findings underscore the robustness and reliability of scVAG in outperforming existing methods across diverse datasets, providing compelling evidence of its superior clustering performance.
