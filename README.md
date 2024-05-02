@@ -161,7 +161,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 
 <div align="center">
   
-  ### Table 1 
+  ### Table 1: ARI comparison
   | Dataset                  |scVAG|SCEA|SC3|scGAG|scGNN|Seurat|DESC|scASGC|
   |--------------------------|-----|----|---|-----|-----|------|-----|------|
   | **Klein**                | 0.862| 0.843| 0.832| 0.836| 0.6  | 0.835| 0.803| 0.802|
@@ -180,7 +180,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 
 <div align="center">
   
-  ### Table 2
+  ### Table 2: NMI comparison
   | Dataset                  |scVAG|SCEA|SC3|scGAG|scGNN|Seurat|DESC|scASGC|
   |--------------------------|-----|----|---|-----|-----|------|-----|------|
   | **Klein**                | 0.894| 0.865| 0.857| 0.855| 0.68 | 0.855| 0.785| 0.822|
