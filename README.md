@@ -161,7 +161,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 
 <div align="center">
   
-  ### Table 1: ARI Comparison
+  ### Table 1 
   | Dataset                  |scVAG|SCEA|SC3|scGAG|scGNN|Seurat|DESC|scASGC|
   |--------------------------|-----|----|---|-----|-----|------|-----|------|
   | **Klein**                | 0.862| 0.843| 0.832| 0.836| 0.6  | 0.835| 0.803| 0.802|
@@ -180,7 +180,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 
 <div align="center">
   
-  ### Table 2: NMI Comparison
+  ### Table 2
   | Dataset                  |scVAG|SCEA|SC3|scGAG|scGNN|Seurat|DESC|scASGC|
   |--------------------------|-----|----|---|-----|-----|------|-----|------|
   | **Klein**                | 0.894| 0.865| 0.857| 0.855| 0.68 | 0.855| 0.785| 0.822|
@@ -219,7 +219,7 @@ To assess the robustness of the scVAG model, we employed two visualization appro
 Figure 5 provides t-SNE clustering plots for two representative datasets (Chung and Human_TBNK_Antibody), highlighting scVAG's interpretability and its ability to align with true labels.
 
 <p align="center">
-  <img src="images/figure 6.PNG" alt="Sample Image4">
+  <img src="images/Interpretability.svg" alt="Sample Image4">
   <br>
   <em>Figure 5: t-SNE visualizations comparing scVAG against baseline models on (A) the Chung dataset and (B) the Human_TBNK_Antibody dataset. The 9 subplots in each row display model clustering performance and alignment with true labels. The true labels are included to facilitate comparison. On both datasets, scVAG's clusters show strong agreement with the true cell type labels, accurately capturing intricate patterns in the single-cell data. This demonstrates scVAG's advanced ability for accurate and interpretable clustering of diverse biological datasets compared to current state-of-the-art methods.</em>
 </p>
@@ -231,10 +231,7 @@ Figure 5 provides t-SNE clustering plots for two representative datasets (Chung 
 ### Differential Expression Gene Analysis in Breast Cancer
 To showcase the practical utility of our scVAG model, we applied its clustering results to conduct a comprehensive differential expression gene analysis on breast cancer data (GSE75688). Leveraging the DESeq2 package, we identified genes exhibiting significant expression alterations between tumor and healthy conditions. Our findings, summarized in Table 3, underscored several key genes implicated in breast cancer progression and metastasis, such as CALML5, CXADR, ID4, TSPAN8, CLDN4, NDST4, KLK5, and KRT81, with adjusted p-values < 1e-26. 
 
-
-<div align="center">
-  
-### Table 3: Differentially Expressed Genes Identified by scVAG Clustering Results in Breast Cancer (GSE75688).
+Table 3: Differentially Expressed Genes Identified by scVAG Clustering Results in Breast Cancer (GSE75688).
 | ENS Id          | Gene Symbol | log2FoldChange | p-value | adjusted p-value |
 |-----------------|-------------|----------------|---------|------------------|
 | ENSG00000178372 | CALML5      | 7.76           | 4.76E-52| 1.19E-48         |
@@ -245,7 +242,6 @@ To showcase the practical utility of our scVAG model, we applied its clustering 
 | ENSG00000172201 | ID4         | 5.97           | 3.80E-31| 3.17E-28         |
 | ENSG00000127324 | TSPAN8      | 7.31           | 1.57E-29| 1.12E-26         |
 | ENSG00000189143 | CLDN4       | 2.97           | 9.91E-29| 6.20E-26         |
-</div>
 
 These findings shed light on the molecular mechanisms underlying breast cancer pathogenesis, further validating the robustness and significance of our scVAG model in unraveling intricate disease processes.
 
