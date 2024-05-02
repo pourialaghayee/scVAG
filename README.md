@@ -135,7 +135,7 @@ Figure 1 illustrates the ARI and NMI comparison between scVAG and seven other si
 
 ##### Observations
 
-- scVAG consistently outperformed other baselines in 10 out of 12 datasets.
+- scVAG consistently outperformed other baselines in ARI measurment.
 - scVAG consistently exhibits higher NMI values across various datasets.
 - The average ARI and NMI across all datasets demonstrates the superior clustering accuracy achieved by scVAG.
 
