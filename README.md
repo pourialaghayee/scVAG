@@ -231,7 +231,6 @@ Figure 5 provides t-SNE clustering plots for two representative datasets (Chung 
 ### Differential Expression Gene Analysis in Breast Cancer
 To showcase the practical utility of our scVAG model, we applied its clustering results to conduct a comprehensive differential expression gene analysis on breast cancer data (GSE75688). Leveraging the DESeq2 package, we identified genes exhibiting significant expression alterations between tumor and healthy conditions. Our findings, summarized in Table 3, underscored several key genes implicated in breast cancer progression and metastasis, such as CALML5, CXADR, ID4, TSPAN8, CLDN4, NDST4, KLK5, and KRT81, with adjusted p-values < 1e-26. 
 
-<div align="center">
 Table 3: Differentially Expressed Genes Identified by scVAG Clustering Results in Breast Cancer (GSE75688).
 | ENS Id          | Gene Symbol | log2FoldChange | p-value | adjusted p-value |
 |-----------------|-------------|----------------|---------|------------------|
@@ -243,7 +242,6 @@ Table 3: Differentially Expressed Genes Identified by scVAG Clustering Results i
 | ENSG00000172201 | ID4         | 5.97           | 3.80E-31| 3.17E-28         |
 | ENSG00000127324 | TSPAN8      | 7.31           | 1.57E-29| 1.12E-26         |
 | ENSG00000189143 | CLDN4       | 2.97           | 9.91E-29| 6.20E-26         |
-<div>
 
 These findings shed light on the molecular mechanisms underlying breast cancer pathogenesis, further validating the robustness and significance of our scVAG model in unraveling intricate disease processes.
 
