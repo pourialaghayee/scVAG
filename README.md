@@ -205,7 +205,7 @@ Table 1 and Table2 summarizes detailed ARI and NMI scores respectively, for scVA
 To assess the robustness of the scVAG model, we employed two visualization approaches. Figure 4 depicts a combined dot plot, where the size and brightness of each point correspond to the ARI and NMI values, demonstrating scVAG's robust performance across different datasets.
 
 <p align="center">
-  <img src="images/figure 5.PNG" alt="Combined Image">
+  <img src="images/robustness.svg" alt="Combined Image">
   <br>
   <em>Figure 4: Robustness evaluation using the Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI). Panel (A) visually shows scVAG's robust performance across datasets compared to baselines for ARI, with larger, brighter squares indicating higher ARI. Panel (B) quantifies ARI scores, while Panels (C) and (D) represent NMI scores, with scVAG showing consistently bright colors that demonstrate reliable clustering across diverse data. Overall, scVAG exhibits strong resilience and stability, outperforming other methods on average.</em>
 </p>
