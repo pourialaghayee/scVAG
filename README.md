@@ -255,7 +255,7 @@ To validate the statistical significance of the performance improvements achieve
 <p align="center">
   <img src="images/Human_TBNK_Antibody-ARI.svg" alt="Sample Image4">
   <br>
-  <em>Figure 6: T-test result for all models including our model (scVAG) across all the real datasets. For instance, in the ARI subplot for the Adult_Mouse_Heart_5k dataset (first row, first column), statistical tests revealed that scVAG surpassed the performance of all other methods (SCEA, SC3, scGAC, scGNN, DESC, Seuart, and scASGC) with over 99% significance. Across all test cases, our analyses consistently demonstrated statistical significance, with over 90% of the situations yielding significant results.</em>
+  <em>Figure 6: T-test result for all models including our model (scVAG) across all the real datasets. For instance, in the ARI subplot for the Adult_Mouse_Heart_5k dataset, statistical tests revealed that scVAG surpassed the performance of all other methods (SCEA, SC3, scGAC, scGNN, DESC, Seuart, and scASGC) with over 99% significance. Across all test cases, our analyses consistently demonstrated statistical significance, with over 90% of the situations yielding significant results.</em>
 </p>
 
 These findings underscore the robustness and reliability of scVAG in outperforming existing methods across diverse datasets, providing compelling evidence of its superior clustering performance.
